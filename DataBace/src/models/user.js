@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   User.init({
-    MASV: DataTypes.STRING,
+    MASV: DataTypes.INTEGER,
     TENSV: DataTypes.STRING,
     DCSV: DataTypes.STRING,
     MALH: DataTypes.STRING,
