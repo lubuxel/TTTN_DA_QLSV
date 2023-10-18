@@ -1,6 +1,7 @@
-import './App.scss';
-import Inforstudent from './Qlsv/Inforstudent';
+// import './App.scss';
+// import Inforstudent from './Qlsv/Inforstudent';
 // import Logincomponents from './Qlsv/Logincomponents';
+import Register from "../containers/Qlsv/Register";
 
 
 
@@ -13,8 +14,9 @@ function App() {
         
       
         
-      {/* <Logincomponents /> */}
-      <Inforstudent/>
+      {/* <Logincomponents />
+      <Inforstudent/> */}
+       <Register/> 
       </header>
     </div>
   );

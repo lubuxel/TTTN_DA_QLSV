@@ -11,6 +11,13 @@ let getHomePage = async (req, res) => {
   }
 };
 
+let postCRUD = (req, res) => {
+  console.log(res.body)
+}
+
+
+
 module.exports = {
   getHomePage: getHomePage,
+  postCRUD: postCRUD,
 };
